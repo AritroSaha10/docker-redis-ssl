@@ -5,7 +5,7 @@ volumes:
 
 services:
   redis:
-    image: "example/redis:v7.0.4"
+    image: "aritrosaha/redis:v7.0.12"
     command: ["/app/docker-redis-entrypoint.sh"]
     container_name: redis
     ports:
